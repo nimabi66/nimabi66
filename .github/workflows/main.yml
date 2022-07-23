@@ -23,5 +23,5 @@ jobs:
         with:
           source_repo: "https://github.com/RayWangQvQ/BiliBiliToolPro.git"
           source_branch: "main"
-          destination_branch: "main"
+          destination_branch: "tb"
           github_token: ${{ secrets.PAT || github.event.client_payload.PAT }}
